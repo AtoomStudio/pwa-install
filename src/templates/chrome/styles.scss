@@ -40,8 +40,17 @@
 
         &.available {
             opacity: 1;
+            top: 28px;
             visibility: visible;
         }
+        
+        @media screen and (max-width: 768px) {
+            &.available {
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+        
 
         .dialog-body{
             display: grid;
